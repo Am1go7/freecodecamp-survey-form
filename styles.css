@@ -1,0 +1,108 @@
+body {
+  background-color: #bf9000;
+  font-size: 16px/24px;
+  font-family: "Open Sans", sans-serif;
+}
+
+#title {
+  font-family: "Averia Serif Libre", cursive;
+  font-size: 3em;
+  text-align: center;
+}
+
+.survey-wrapper {
+  background-color: #efefef;
+  border-radius: 25px;
+  box-shadow: 5px 5px 20px 0 #000;
+  margin: 0 auto;
+  padding: 20px 30px;
+  width: 70%;
+}
+
+#description {
+  margin-top: 0;
+  font-size: 1.5em;
+  text-align: center;
+}
+
+p {
+  margin: 0.5em 0;
+}
+
+.survey-row {
+  clear: both;
+  text-align: center;
+}
+
+.survey-row-left,
+.survey-row-right {
+  box-sizing: border-box;
+  padding: 10px 10px;
+  width: 50%;
+}
+
+.survey-row-left {
+  text-align: right;
+  float: left;
+}
+
+.survey-row-right {
+  text-align: left;
+  float: right;
+}
+
+#name,
+#name-label,
+#email,
+#email-label,
+#number,
+#number-label,
+#textarea {
+  font-size: 1em;
+  line-height: 1.5em;
+  padding: 0 5px;
+}
+
+#dropdown {
+  font-size: 1em;
+  padding: 2px;
+}
+
+#textarea {
+  font-family: "Open Sans", sans-serif;
+  height: 5em;
+  width: 80%;
+}
+
+button {
+  background-color: #fefe87;
+  border: #aeaeae solid 1px;
+  border-radius: 5px;
+  color: #3e3e3e;
+  font-size: 1em;
+  padding: 10px 15px;
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+  border: transparent solid 2px;
+  outline: none;
+  box-shadow: 0 0 5px 3px #fefe87;
+}
+
+select:focus,
+textarea:focus {
+  border: transparent solid 1px;
+}
+
+footer {
+  margin-top: 50px;
+  text-align: center;
+}
+
+footer p {
+  font-size: 12px;
+  margin-bottom: 0;
+}

@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width; initial-scale=1.0">
+  <title>New Meadow Candles - Survey</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main>
+    <h1 id="title">My Survey Form</h1>
+    <div class="survey-wrapper">
+      <p id="description">Thank you for taking time to help us with my form on FreeCodeCamp.</p>
+      <form id="survey-form">
+        <div class="survey-row">
+          <div class="survey-row-left">
+            <label id="name-label" for="name">* Name:</label>
+          </div>
+          <div class="survey-row-right">
+            <input type="text" id="name" placeholder="Enter your name" required>
+          </div>
+        </div>
+        <div class="survey-row">
+          <div class="survey-row-left">
+            <label id="email-label" for="email">* Email:</label>
+          </div>
+          <div class="survey-row-right">
+            <input type="email" id="email" placeholder="Enter your email" required>
+          </div>
+        </div>
+        <div class="survey-row">
+          <div class="survey-row-left">
+            <label id="number-label" for="number">* Age:</label>
+          </div>
+          <div class="survey-row-right">
+            <input type="number" id="number" placeholder="Age" min="1" max="100">
+          </div>
+        </div>
+        <div class="survey-row">
+          <div class="survey-row-left">
+            <label id="dropdown-label" for="dropdown">What programming language do you use?</label>
+          </div>
+          <div class="survey-row-right">
+            <select id="dropdown">
+              <option>C</option>
+              <option>C++</option>
+              <option>C#</option>
+              <option>Python</option>
+              <option>Ruby</option>
+              <option>Other..</option>
+            </select>
+          </div>
+        </div>
+        <div class="survey-row">
+          <div class="survey-row-left">
+            <label for="radio-fields">What are you doing?</p>
+          </div>
+          <div class="survey-row-right">
+              <div class="fieldset-rows" id="radio-fields">
+                <div class="fieldset-row-left">
+                  <input type="radio" id="radio-1" name="first-heard" value="etsy">
+                  <label for="radio-1">Student</label>
+                </div>
+                <div class="fieldset-row-right">
+                  <input type="radio" id="radio-2" name="first-heard" value="web">
+                  <label for="radio-2">Full Time Worker</label>
+                </div>
+                <div class="fieldset-row-left">
+                  <input type="radio" id="radio-3" name="first-heard" value="show">
+                  <label for="radio-3">Part Time Worker</label>
+                </div>
+                <div class="fieldset-row-right">
+                  <input type="radio" id="radio-4" name="first-heard" value="friend">
+                  <label for="radio-4">Freelance</label>
+                </div>
+              </div>
+          </div>
+        </div>
+        <div class="survey-row">
+          <div class="survey-row-left">
+            <label for="checkbox-fields">What programming languages do you want to learn in the future?</label>
+          </div>
+          <div class="survey-row-right">
+            <div class="fieldset-rows" id="checkbox-fields">
+              <div class="fieldset-row-left">
+                <input type="checkbox" id="color-1" value="ApplesAndBerries">
+                <label for="color-1">C</label>
+              </div>
+              <div class="fieldset-row-right">
+                <input type="checkbox" id="color-2" value="BabyPowder">
+                <label for="color-2">C++</label>
+              </div>
+              <div class="fieldset-row-left">
+                <input type="checkbox" id="color-3" value="Blueberry">
+                <label for="color-3">C#</label>
+              </div>
+              <div class="fieldset-row-right">
+                <input type="checkbox" id="color-4" value="BlueberryCheesecake">
+                <label for="color-4">Python</label>
+              </div>
+              <div class="fieldset-row-left">
+                <input type="checkbox" id="color-5" value="CherryBlossom">
+                <label for="color-5">PHP</label>
+              </div>
+              <div class="fieldset-row-right">
+                <input type="checkbox" id="color-6" value="MalibuHeat">
+                <label for="color-6">Ruby</label>
+              </div>
+              <div class="fieldset-row-left">
+                <input type="checkbox" id="color-7" value="MonkeyFarts">
+                <label for="color-7">Java</label>
+              </div>
+              <div class="fieldset-row-right">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="survey-row">
+          <div class="survey-row-left">
+            <label for="textarea">Describe the programming language you know and do you recommend to others?</label>
+          </div>
+          <div class="survey-row-right">
+            <textarea id="textarea" placeholder="Enter your text here..."></textarea>
+          </div>
+        </div>
+        <div class="survey-row">
+          <button id="submit" type="submit">Submit</button>
+        </div>
+      </form>
+    </div>
+  </main>
+</body>
+</html>
